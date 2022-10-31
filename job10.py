@@ -1,0 +1,5 @@
+txt = (input ("Entrez un texte:"))
+fichier = open("output.txt", "w")
+fichier.write(txt)
+fichier.close()
+print (txt)
